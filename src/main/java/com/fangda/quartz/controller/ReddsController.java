@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ReddsController {
 
-	@RequestMapping("a")
-	public String meod() {
+	@RequestMapping("hello")
+	public String hello() {
 		return "hello world";
 	}
 	
